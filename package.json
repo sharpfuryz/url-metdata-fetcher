@@ -1,0 +1,30 @@
+{
+  "name": "url-metdata-fetcher",
+  "version": "1.0.0",
+  "description": "Return opengraph and other metadata in standartized output",
+  "main": "index.js",
+  "repository": "https://github.com/sharpfuryz/url-metdata-fetcher",
+  "author": "Dmytro Bieliaiev",
+  "license": "MIT",
+  "scripts": {
+    "sample": "node ./examples/index.js",
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true
+    },
+    "settings": {
+      "polyfills": [
+        "promises"
+      ]
+    }
+  },
+  "dependencies": {
+    "open-graph": "^0.2.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.2",
+    "mocha": "^5.0.4"
+  }
+}
